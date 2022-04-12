@@ -6090,8 +6090,6 @@ in {
 
   pendulum = callPackage ../development/python-modules/pendulum { };
 
-  pep257 = callPackage ../development/python-modules/pep257 { };
-
   pep440 = callPackage ../development/python-modules/pep440 { };
 
   pep517 = callPackage ../development/python-modules/pep517 { };
@@ -7976,8 +7974,6 @@ in {
   pytest-order = callPackage ../development/python-modules/pytest-order { };
 
   pytest-ordering = callPackage ../development/python-modules/pytest-ordering { };
-
-  pytest-pep257 = callPackage ../development/python-modules/pytest-pep257 { };
 
   pytest-pylint = callPackage ../development/python-modules/pytest-pylint { };
 
