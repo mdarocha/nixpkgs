@@ -6017,8 +6017,9 @@ in {
 
   patch-ng = callPackage ../development/python-modules/patch-ng { };
 
-  path-and-address = callPackage ../development/python-modules/path-and-address { };
+  path = callPackage ../development/python-modules/path { };
 
+  path-and-address = callPackage ../development/python-modules/path-and-address { };
   pathable = callPackage ../development/python-modules/pathable { };
 
   pathlib2 = callPackage ../development/python-modules/pathlib2 { };
@@ -6026,8 +6027,6 @@ in {
   pathlib = callPackage ../development/python-modules/pathlib { };
 
   pathos = callPackage ../development/python-modules/pathos { };
-
-  pathpy = callPackage ../development/python-modules/path.py { };
 
   pathspec = callPackage ../development/python-modules/pathspec { };
 
