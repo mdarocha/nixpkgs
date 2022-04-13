@@ -28,7 +28,7 @@ buildPythonPackage rec {
 
   postPatch = ''
     substituteInPlace setup.cfg \
-      --replace "redis<4.2.0" ""
+      --replace "redis<4.2.0" "redis"
   '';
 
   propagatedBuildInputs = [
